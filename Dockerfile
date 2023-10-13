@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV CONSUL_VERSION 4.2.32
+ENV CONSUL_VERSION 4.2.33
 
 # Update & install packages for installing consul
 RUN apt-get update && \
