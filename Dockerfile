@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV CONSUL_VERSION v4.2.38
+ENV CONSUL_VERSION jenkins-4.2.39
 
 # Update & install packages for installing consul
 RUN apt-get update && \
